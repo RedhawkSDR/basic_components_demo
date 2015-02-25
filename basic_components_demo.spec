@@ -10,7 +10,7 @@ Prefix: %{_prefix}
 Name: basic_components_demo
 Summary: Waveform basic_components_demo
 Version: 1.0.0
-Release: 1
+Release: 1%{?dist}
 License: None
 Group: REDHAWK/Waveforms
 Source: %{name}-%{version}.tar.gz
