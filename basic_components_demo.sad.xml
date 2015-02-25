@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE softwareassembly PUBLIC "-//JTRS//DTD SCA V2.2.2 SAD//EN" "softwareassembly.dtd">
+<softwareassembly id="DCE:4744698f-79db-4065-8f4f-19308d243377" name="basic_components_demo">
+  <componentfiles>
+    <componentfile id="SigGen_d9ff93be-19ce-4352-aaaa-e6a30c4fa7eb" type="SPD">
+      <localfile name="/components/SigGen/SigGen.spd.xml"/>
+    </componentfile>
+    <componentfile id="HardLimit_208d4fe4-ea4f-4245-9032-9a50588ff6d5" type="SPD">
+      <localfile name="/components/HardLimit/HardLimit.spd.xml"/>
+    </componentfile>
+    <componentfile id="agc_03eaf8db-5d78-48a5-9884-0330bbd01614" type="SPD">
+      <localfile name="/components/agc/agc.spd.xml"/>
+    </componentfile>
+    <componentfile id="fcalc_7d5ef2d9-c08c-40b9-874e-30c17e496a2e" type="SPD">
+      <localfile name="/components/fcalc/fcalc.spd.xml"/>
+    </componentfile>
+    <componentfile id="autocorrelate_2d516c19-a098-4547-a0d8-7a4055c0d2c5" type="SPD">
+      <localfile name="/components/autocorrelate/autocorrelate.spd.xml"/>
+    </componentfile>
+  </componentfiles>
+  <partitioning>
+    <componentplacement>
+      <componentfileref refid="SigGen_d9ff93be-19ce-4352-aaaa-e6a30c4fa7eb"/>
+      <componentinstantiation id="SigGen_1" startorder="0">
+        <usagename>SigGen_1</usagename>
+        <componentproperties>
+          <simpleref refid="sample_rate" value="10000.0"/>
+          <simpleref refid="frequency" value="500.0"/>
+        </componentproperties>
+        <findcomponent>
+          <namingservice name="SigGen_1"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+    <componentplacement>
+      <componentfileref refid="HardLimit_208d4fe4-ea4f-4245-9032-9a50588ff6d5"/>
+      <componentinstantiation id="HardLimit_1" startorder="1">
+        <usagename>HardLimit_1</usagename>
+        <componentproperties>
+          <simpleref refid="upper_limit" value="100.0"/>
+          <simpleref refid="lower_limit" value="0.0"/>
+        </componentproperties>
+        <findcomponent>
+          <namingservice name="HardLimit_1"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+    <componentplacement>
+      <componentfileref refid="agc_03eaf8db-5d78-48a5-9884-0330bbd01614"/>
+      <componentinstantiation id="agc_1" startorder="2">
+        <usagename>agc_1</usagename>
+        <componentproperties>
+          <simpleref refid="avgPower" value="10.0"/>
+        </componentproperties>
+        <findcomponent>
+          <namingservice name="agc_1"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+    <componentplacement>
+      <componentfileref refid="fcalc_7d5ef2d9-c08c-40b9-874e-30c17e496a2e"/>
+      <componentinstantiation id="fcalc_1" startorder="3">
+        <usagename>fcalc_1</usagename>
+        <componentproperties>
+          <simpleref refid="equation" value="a-b"/>
+        </componentproperties>
+        <findcomponent>
+          <namingservice name="fcalc_1"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+    <componentplacement>
+      <componentfileref refid="HardLimit_208d4fe4-ea4f-4245-9032-9a50588ff6d5"/>
+      <componentinstantiation id="HardLimit_2" startorder="4">
+        <usagename>HardLimit_2</usagename>
+        <componentproperties>
+          <simpleref refid="upper_limit" value="0.0"/>
+          <simpleref refid="lower_limit" value="-100.0"/>
+        </componentproperties>
+        <findcomponent>
+          <namingservice name="HardLimit_2"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+    <componentplacement>
+      <componentfileref refid="autocorrelate_2d516c19-a098-4547-a0d8-7a4055c0d2c5"/>
+      <componentinstantiation id="autocorrelate_1" startorder="6">
+        <usagename>autocorrelate_1</usagename>
+        <findcomponent>
+          <namingservice name="autocorrelate_1"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+    <componentplacement>
+      <componentfileref refid="agc_03eaf8db-5d78-48a5-9884-0330bbd01614"/>
+      <componentinstantiation id="agc_2" startorder="7">
+        <usagename>agc_2</usagename>
+        <findcomponent>
+          <namingservice name="agc_2"/>
+        </findcomponent>
+      </componentinstantiation>
+    </componentplacement>
+  </partitioning>
+  <assemblycontroller>
+    <componentinstantiationref refid="SigGen_1"/>
+  </assemblycontroller>
+  <connections>
+    <connectinterface id="connection_1">
+      <usesport>
+        <usesidentifier>dataFloat_out</usesidentifier>
+        <componentinstantiationref refid="SigGen_1"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>dataFloat_in</providesidentifier>
+        <componentinstantiationref refid="HardLimit_1"/>
+      </providesport>
+    </connectinterface>
+    <connectinterface id="connection_4">
+      <usesport>
+        <usesidentifier>dataFloat_out</usesidentifier>
+        <componentinstantiationref refid="SigGen_1"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>dataFloat_in</providesidentifier>
+        <componentinstantiationref refid="HardLimit_2"/>
+      </providesport>
+    </connectinterface>
+    <connectinterface id="connection_7">
+      <usesport>
+        <usesidentifier>out</usesidentifier>
+        <componentinstantiationref refid="fcalc_1"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>dataFloat_in</providesidentifier>
+        <componentinstantiationref refid="autocorrelate_1"/>
+      </providesport>
+    </connectinterface>
+    <connectinterface id="connection_2">
+      <usesport>
+        <usesidentifier>dataFloat_out</usesidentifier>
+        <componentinstantiationref refid="HardLimit_1"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>dataFloat_in</providesidentifier>
+        <componentinstantiationref refid="agc_1"/>
+      </providesport>
+    </connectinterface>
+    <connectinterface id="connection_3">
+      <usesport>
+        <usesidentifier>dataFloat_out</usesidentifier>
+        <componentinstantiationref refid="HardLimit_2"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>dataFloat_in</providesidentifier>
+        <componentinstantiationref refid="agc_2"/>
+      </providesport>
+    </connectinterface>
+    <connectinterface id="connection_5">
+      <usesport>
+        <usesidentifier>dataFloat_out</usesidentifier>
+        <componentinstantiationref refid="agc_1"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>a</providesidentifier>
+        <componentinstantiationref refid="fcalc_1"/>
+      </providesport>
+    </connectinterface>
+    <connectinterface id="connection_6">
+      <usesport>
+        <usesidentifier>dataFloat_out</usesidentifier>
+        <componentinstantiationref refid="agc_2"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>b</providesidentifier>
+        <componentinstantiationref refid="fcalc_1"/>
+      </providesport>
+    </connectinterface>
+  </connections>
+</softwareassembly>
