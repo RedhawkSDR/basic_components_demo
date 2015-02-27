@@ -21,24 +21,26 @@
   <partitioning>
     <componentplacement>
       <componentfileref refid="SigGen_d9ff93be-19ce-4352-aaaa-e6a30c4fa7eb"/>
-      <componentinstantiation id="SigGen_1" startorder="0">
-        <usagename>SigGen_1</usagename>
+      <componentinstantiation id="SigGen_sine" startorder="0">
+        <usagename>SigGen_sine</usagename>
         <componentproperties>
           <simpleref refid="sample_rate" value="10000.0"/>
-          <simpleref refid="frequency" value="500.0"/>
+          <simpleref refid="sri_blocking" value="true"/>
+          <simpleref refid="stream_id" value="sineStream"/>
+          <simpleref refid="frequency" value="100.0"/>
         </componentproperties>
         <findcomponent>
-          <namingservice name="SigGen_1"/>
+          <namingservice name="SigGen_sine"/>
         </findcomponent>
       </componentinstantiation>
     </componentplacement>
     <componentplacement>
       <componentfileref refid="HardLimit_208d4fe4-ea4f-4245-9032-9a50588ff6d5"/>
-      <componentinstantiation id="HardLimit_1" startorder="1">
+      <componentinstantiation id="HardLimit_1" startorder="2">
         <usagename>HardLimit_1</usagename>
         <componentproperties>
-          <simpleref refid="upper_limit" value="100.0"/>
-          <simpleref refid="lower_limit" value="0.0"/>
+          <simpleref refid="upper_limit" value="50.0"/>
+          <simpleref refid="lower_limit" value="-50.0"/>
         </componentproperties>
         <findcomponent>
           <namingservice name="HardLimit_1"/>
@@ -47,10 +49,10 @@
     </componentplacement>
     <componentplacement>
       <componentfileref refid="agc_03eaf8db-5d78-48a5-9884-0330bbd01614"/>
-      <componentinstantiation id="agc_1" startorder="2">
+      <componentinstantiation id="agc_1" startorder="4">
         <usagename>agc_1</usagename>
         <componentproperties>
-          <simpleref refid="avgPower" value="10.0"/>
+          <simpleref refid="avgPower" value="0.6"/>
         </componentproperties>
         <findcomponent>
           <namingservice name="agc_1"/>
@@ -59,32 +61,19 @@
     </componentplacement>
     <componentplacement>
       <componentfileref refid="fcalc_7d5ef2d9-c08c-40b9-874e-30c17e496a2e"/>
-      <componentinstantiation id="fcalc_1" startorder="3">
-        <usagename>fcalc_1</usagename>
+      <componentinstantiation id="sum" startorder="3">
+        <usagename>sum</usagename>
         <componentproperties>
-          <simpleref refid="equation" value="a-b"/>
+          <simpleref refid="equation" value="a+b"/>
         </componentproperties>
         <findcomponent>
-          <namingservice name="fcalc_1"/>
-        </findcomponent>
-      </componentinstantiation>
-    </componentplacement>
-    <componentplacement>
-      <componentfileref refid="HardLimit_208d4fe4-ea4f-4245-9032-9a50588ff6d5"/>
-      <componentinstantiation id="HardLimit_2" startorder="4">
-        <usagename>HardLimit_2</usagename>
-        <componentproperties>
-          <simpleref refid="upper_limit" value="0.0"/>
-          <simpleref refid="lower_limit" value="-100.0"/>
-        </componentproperties>
-        <findcomponent>
-          <namingservice name="HardLimit_2"/>
+          <namingservice name="sum"/>
         </findcomponent>
       </componentinstantiation>
     </componentplacement>
     <componentplacement>
       <componentfileref refid="autocorrelate_2d516c19-a098-4547-a0d8-7a4055c0d2c5"/>
-      <componentinstantiation id="autocorrelate_1" startorder="6">
+      <componentinstantiation id="autocorrelate_1" startorder="5">
         <usagename>autocorrelate_1</usagename>
         <findcomponent>
           <namingservice name="autocorrelate_1"/>
@@ -92,47 +81,34 @@
       </componentinstantiation>
     </componentplacement>
     <componentplacement>
-      <componentfileref refid="agc_03eaf8db-5d78-48a5-9884-0330bbd01614"/>
-      <componentinstantiation id="agc_2" startorder="7">
-        <usagename>agc_2</usagename>
+      <componentfileref refid="SigGen_d9ff93be-19ce-4352-aaaa-e6a30c4fa7eb"/>
+      <componentinstantiation id="SigGen_noise" startorder="1">
+        <usagename>SigGen_noise</usagename>
+        <componentproperties>
+          <simpleref refid="sample_rate" value="10000.0"/>
+          <simpleref refid="magnitude" value="1.0"/>
+          <simpleref refid="sri_blocking" value="true"/>
+          <simpleref refid="stream_id" value="noiseStream"/>
+          <simpleref refid="shape" value="whitenoise"/>
+        </componentproperties>
         <findcomponent>
-          <namingservice name="agc_2"/>
+          <namingservice name="SigGen_noise"/>
         </findcomponent>
       </componentinstantiation>
     </componentplacement>
   </partitioning>
   <assemblycontroller>
-    <componentinstantiationref refid="SigGen_1"/>
+    <componentinstantiationref refid="SigGen_sine"/>
   </assemblycontroller>
   <connections>
     <connectinterface id="connection_1">
       <usesport>
         <usesidentifier>dataFloat_out</usesidentifier>
-        <componentinstantiationref refid="SigGen_1"/>
+        <componentinstantiationref refid="SigGen_sine"/>
       </usesport>
       <providesport>
         <providesidentifier>dataFloat_in</providesidentifier>
         <componentinstantiationref refid="HardLimit_1"/>
-      </providesport>
-    </connectinterface>
-    <connectinterface id="connection_4">
-      <usesport>
-        <usesidentifier>dataFloat_out</usesidentifier>
-        <componentinstantiationref refid="SigGen_1"/>
-      </usesport>
-      <providesport>
-        <providesidentifier>dataFloat_in</providesidentifier>
-        <componentinstantiationref refid="HardLimit_2"/>
-      </providesport>
-    </connectinterface>
-    <connectinterface id="connection_7">
-      <usesport>
-        <usesidentifier>out</usesidentifier>
-        <componentinstantiationref refid="fcalc_1"/>
-      </usesport>
-      <providesport>
-        <providesidentifier>dataFloat_in</providesidentifier>
-        <componentinstantiationref refid="autocorrelate_1"/>
       </providesport>
     </connectinterface>
     <connectinterface id="connection_2">
@@ -141,38 +117,38 @@
         <componentinstantiationref refid="HardLimit_1"/>
       </usesport>
       <providesport>
-        <providesidentifier>dataFloat_in</providesidentifier>
-        <componentinstantiationref refid="agc_1"/>
+        <providesidentifier>a</providesidentifier>
+        <componentinstantiationref refid="sum"/>
       </providesport>
     </connectinterface>
     <connectinterface id="connection_3">
       <usesport>
         <usesidentifier>dataFloat_out</usesidentifier>
-        <componentinstantiationref refid="HardLimit_2"/>
+        <componentinstantiationref refid="SigGen_noise"/>
+      </usesport>
+      <providesport>
+        <providesidentifier>b</providesidentifier>
+        <componentinstantiationref refid="sum"/>
+      </providesport>
+    </connectinterface>
+    <connectinterface id="connection_4">
+      <usesport>
+        <usesidentifier>out</usesidentifier>
+        <componentinstantiationref refid="sum"/>
       </usesport>
       <providesport>
         <providesidentifier>dataFloat_in</providesidentifier>
-        <componentinstantiationref refid="agc_2"/>
+        <componentinstantiationref refid="agc_1"/>
       </providesport>
     </connectinterface>
     <connectinterface id="connection_5">
       <usesport>
-        <usesidentifier>dataFloat_out</usesidentifier>
-        <componentinstantiationref refid="agc_1"/>
+        <usesidentifier>out</usesidentifier>
+        <componentinstantiationref refid="sum"/>
       </usesport>
       <providesport>
-        <providesidentifier>a</providesidentifier>
-        <componentinstantiationref refid="fcalc_1"/>
-      </providesport>
-    </connectinterface>
-    <connectinterface id="connection_6">
-      <usesport>
-        <usesidentifier>dataFloat_out</usesidentifier>
-        <componentinstantiationref refid="agc_2"/>
-      </usesport>
-      <providesport>
-        <providesidentifier>b</providesidentifier>
-        <componentinstantiationref refid="fcalc_1"/>
+        <providesidentifier>dataFloat_in</providesidentifier>
+        <componentinstantiationref refid="autocorrelate_1"/>
       </providesport>
     </connectinterface>
   </connections>
