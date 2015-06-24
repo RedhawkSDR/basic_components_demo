@@ -7,17 +7,17 @@
 %define _prefix %{_sdrroot}
 Prefix: %{_prefix}
 
-Name: basic_components_demo
-Summary: Waveform basic_components_demo
+Name: rh.basic_components_demo
+Summary: Waveform rh.basic_components_demo
 Version: 1.0.0
 Release: 1%{?dist}
 License: None
 Group: REDHAWK/Waveforms
 Source: %{name}-%{version}.tar.gz
 # Require the controller whose SPD is referenced
-Requires: SigGen
+Requires: rh.SigGen
 # Require each referenced component
-Requires: SigGen HardLimit agc fcalc autocorrelate
+Requires: rh.SigGen rh.HardLimit rh.agc rh.fcalc rh.autocorrelate
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}
 

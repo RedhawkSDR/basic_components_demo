@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE softwareassembly PUBLIC "-//JTRS//DTD SCA V2.2.2 SAD//EN" "softwareassembly.dtd">
-<softwareassembly id="DCE:4744698f-79db-4065-8f4f-19308d243377" name="basic_components_demo">
+<softwareassembly id="DCE:d4d99400-1a11-11e5-a6ce-3417ebc4aab5" name="rh.basic_components_demo">
   <componentfiles>
     <componentfile id="SigGen_d9ff93be-19ce-4352-aaaa-e6a30c4fa7eb" type="SPD">
-      <localfile name="/components/SigGen/SigGen.spd.xml"/>
+      <localfile name="/components/rh/SigGen/SigGen.spd.xml"/>
     </componentfile>
     <componentfile id="HardLimit_208d4fe4-ea4f-4245-9032-9a50588ff6d5" type="SPD">
-      <localfile name="/components/HardLimit/HardLimit.spd.xml"/>
+      <localfile name="/components/rh/HardLimit/HardLimit.spd.xml"/>
     </componentfile>
     <componentfile id="agc_03eaf8db-5d78-48a5-9884-0330bbd01614" type="SPD">
-      <localfile name="/components/agc/agc.spd.xml"/>
+      <localfile name="/components/rh/agc/agc.spd.xml"/>
     </componentfile>
     <componentfile id="fcalc_7d5ef2d9-c08c-40b9-874e-30c17e496a2e" type="SPD">
-      <localfile name="/components/fcalc/fcalc.spd.xml"/>
+      <localfile name="/components/rh/fcalc/fcalc.spd.xml"/>
     </componentfile>
     <componentfile id="autocorrelate_2d516c19-a098-4547-a0d8-7a4055c0d2c5" type="SPD">
-      <localfile name="/components/autocorrelate/autocorrelate.spd.xml"/>
+      <localfile name="/components/rh/autocorrelate/autocorrelate.spd.xml"/>
     </componentfile>
   </componentfiles>
   <partitioning>
