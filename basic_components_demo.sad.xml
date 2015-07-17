@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE softwareassembly PUBLIC "-//JTRS//DTD SCA V2.2.2 SAD//EN" "softwareassembly.dtd">
-<softwareassembly id="DCE:d4d99400-1a11-11e5-a6ce-3417ebc4aab5" name="rh.basic_components_demo">
+<softwareassembly id="DCE:d4d99400-1a11-11e5-a6ce-3417ebc4aab5" name="rh.basic_components_demo" version="1.0.0">
   <componentfiles>
     <componentfile id="SigGen_d9ff93be-19ce-4352-aaaa-e6a30c4fa7eb" type="SPD">
       <localfile name="/components/rh/SigGen/SigGen.spd.xml"/>
