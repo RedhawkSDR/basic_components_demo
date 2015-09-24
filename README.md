@@ -13,7 +13,7 @@ Contains the source and build script for the REDHAWK Basic Components Demo Wavef
 |Branch: Develop | Latest Version |  1.8 |
 |Branch: Master | Last Release | 1.8 |
 
-##Build/Installation Instructions
+## Build/Installation Instructions
 This is a wavform project and thus does not need to be built just installed into the SDRROOT/dom/waveforms directory. One way to do that is to open the project in the REDHAWK IDE and drag it into the Target SDR Folder.
 
  
