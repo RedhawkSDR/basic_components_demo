@@ -10,8 +10,8 @@ Contains the source and build script for the REDHAWK Basic Components Demo Wavef
 ## Active Tags and Branches
 |Name|Description|Minimum RH Version|
 | --------|---------|-------|
-|Branch: Develop | Latest Version |  1.8 |
-|Branch: Master | Last Release | 1.8 |
+|Branch: develop | Latest Version |2.0 |
+|Branch: master | Last Release |2.0 |
 
 ## Build/Installation Instructions
 This is a wavform project and thus does not need to be built just installed into the SDRROOT/dom/waveforms directory. One way to do that is to open the project in the REDHAWK IDE and drag it into the Target SDR Folder.
@@ -32,5 +32,3 @@ This work is protected by Copyright. Please refer to the [Copyright File](COPYRI
 ## License
 
 REDHAWK Basic Components Demo Waveform is licensed under the GNU Lesser General Public License (LGPL).
-
-
