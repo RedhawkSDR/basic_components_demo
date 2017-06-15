@@ -19,7 +19,7 @@ You should have received a copy of the GNU Lesser General Public License along
 with this program.  If not, see http://www.gnu.org/licenses/.
 -->
 <!DOCTYPE softwareassembly PUBLIC "-//JTRS//DTD SCA V2.2.2 SAD//EN" "softwareassembly.dtd">
-<softwareassembly id="DCE:d4d99400-1a11-11e5-a6ce-3417ebc4aab5" name="rh.basic_components_demo" version="1.0.0">
+<softwareassembly id="DCE:d4d99400-1a11-11e5-a6ce-3417ebc4aab5" name="rh.basic_components_demo" version="1.0.1">
   <componentfiles>
     <componentfile id="SigGen_d9ff93be-19ce-4352-aaaa-e6a30c4fa7eb" type="SPD">
       <localfile name="/components/rh/SigGen/SigGen.spd.xml"/>
