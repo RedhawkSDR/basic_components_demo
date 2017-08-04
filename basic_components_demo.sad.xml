@@ -171,4 +171,10 @@ with this program.  If not, see http://www.gnu.org/licenses/.
       </providesport>
     </connectinterface>
   </connections>
+  <externalproperties>
+    <property comprefid="HardLimit_1" propid="upper_limit" externalpropid="upper_limit"/>
+    <property comprefid="HardLimit_1" propid="lower_limit" externalpropid="lower_limit"/>
+    <property comprefid="agc_1" propid="avgPower" externalpropid="avgPower"/>
+    <property comprefid="SigGen_noise" propid="magnitude" externalpropid="noise_magnitude"/>
+  </externalproperties>
 </softwareassembly>

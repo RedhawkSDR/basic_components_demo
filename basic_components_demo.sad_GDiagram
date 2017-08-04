@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:ext="http://www.redhawk.gov/model/rhsadgext/1.0.0" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="SADDiagram" name="basic_components_demo.sad_GDiagram" snapToGrid="true" pictogramLinks="//@children.0/@link //@children.0/@children.1/@link //@children.0/@children.1/@anchors.0/@link //@children.0/@children.2/@link //@children.0/@children.3/@link //@children.0/@children.3/@children.0/@link //@children.0/@children.3/@children.0/@children.0/@link //@children.0/@children.3/@children.0/@children.0/@anchors.0/@link //@children.0/@children.3/@children.1/@link //@children.0/@children.3/@children.1/@children.0/@link //@children.0/@children.3/@children.1/@children.0/@anchors.0/@link //@children.0/@children.0/@children.0/@link //@children.1/@link //@children.1/@children.1/@link //@children.1/@children.1/@anchors.0/@link //@children.1/@children.2/@link //@children.1/@children.2/@children.0/@link //@children.1/@children.2/@children.0/@children.0/@link //@children.1/@children.2/@children.0/@children.0/@anchors.0/@link //@children.1/@children.3/@link //@children.1/@children.3/@children.0/@link //@children.1/@children.3/@children.0/@children.0/@link //@children.1/@children.3/@children.0/@children.0/@anchors.0/@link //@children.2/@link //@children.2/@children.1/@link //@children.2/@children.1/@anchors.0/@link //@children.2/@children.2/@link //@children.2/@children.2/@children.0/@link //@children.2/@children.2/@children.0/@children.0/@link //@children.2/@children.2/@children.0/@children.0/@anchors.0/@link //@children.2/@children.3/@link //@children.2/@children.3/@children.0/@link //@children.2/@children.3/@children.0/@children.0/@link //@children.2/@children.3/@children.0/@children.0/@anchors.0/@link //@children.3/@link //@children.3/@children.1/@link //@children.3/@children.1/@anchors.0/@link //@children.3/@children.2/@link //@children.3/@children.2/@children.0/@link //@children.3/@children.2/@children.0/@children.0/@link //@children.3/@children.2/@children.0/@children.0/@anchors.0/@link //@children.3/@children.2/@children.1/@link //@children.3/@children.2/@children.1/@children.0/@link //@children.3/@children.2/@children.1/@children.0/@anchors.0/@link //@children.3/@children.3/@link //@children.3/@children.3/@children.0/@link //@children.3/@children.3/@children.0/@children.0/@link //@children.3/@children.3/@children.0/@children.0/@anchors.0/@link //@children.4/@link //@children.4/@children.1/@link //@children.4/@children.1/@anchors.0/@link //@children.4/@children.2/@link //@children.4/@children.2/@children.0/@link //@children.4/@children.2/@children.0/@children.0/@link //@children.4/@children.2/@children.0/@children.0/@anchors.0/@link //@children.4/@children.3/@link //@children.4/@children.3/@children.0/@link //@children.4/@children.3/@children.0/@children.0/@link //@children.4/@children.3/@children.0/@children.0/@anchors.0/@link //@children.5/@link //@children.5/@children.1/@link //@children.5/@children.1/@anchors.0/@link //@children.5/@children.2/@link //@children.5/@children.3/@link //@children.5/@children.3/@children.0/@link //@children.5/@children.3/@children.0/@children.0/@link //@children.5/@children.3/@children.0/@children.0/@anchors.0/@link //@children.5/@children.3/@children.1/@link //@children.5/@children.3/@children.1/@children.0/@link //@children.5/@children.3/@children.1/@children.0/@anchors.0/@link //@connections.0/@link //@connections.1/@link //@connections.2/@link //@connections.3/@link //@connections.4/@link" version="0.12.0">
+<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:ext="http://www.redhawk.gov/model/rhsadgext/1.0.0" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="SADDiagram" name="basic_components_demo.sad_GDiagram" snapToGrid="true" pictogramLinks="//@children.0/@link //@children.0/@children.1/@children.1/@link //@children.0/@children.1/@children.1/@anchors.0/@link //@children.0/@children.2/@link //@children.0/@children.3/@children.1/@link //@children.0/@children.3/@children.1/@children.0/@link //@children.0/@children.3/@children.1/@children.0/@anchors.0/@link //@children.0/@children.3/@children.0/@link //@children.0/@children.3/@children.0/@children.0/@link //@children.0/@children.3/@children.0/@children.0/@anchors.0/@link //@children.0/@children.3/@link //@children.1/@link //@children.1/@children.1/@children.1/@link //@children.1/@children.1/@children.1/@anchors.0/@link //@children.1/@children.2/@children.0/@link //@children.1/@children.2/@children.0/@children.0/@link //@children.1/@children.2/@children.0/@children.0/@anchors.0/@link //@children.1/@children.2/@link //@children.1/@children.3/@children.0/@link //@children.1/@children.3/@children.0/@children.0/@link //@children.1/@children.3/@children.0/@children.0/@anchors.0/@link //@children.1/@children.3/@link //@children.2/@link //@children.2/@children.1/@children.1/@link //@children.2/@children.1/@children.1/@anchors.0/@link //@children.2/@children.2/@children.0/@link //@children.2/@children.2/@children.0/@children.0/@link //@children.2/@children.2/@children.0/@children.0/@anchors.0/@link //@children.2/@children.2/@link //@children.2/@children.3/@children.0/@link //@children.2/@children.3/@children.0/@children.0/@link //@children.2/@children.3/@children.0/@children.0/@anchors.0/@link //@children.2/@children.3/@link //@children.3/@link //@children.3/@children.1/@children.1/@link //@children.3/@children.1/@children.1/@anchors.0/@link //@children.3/@children.2/@children.0/@link //@children.3/@children.2/@children.0/@children.0/@link //@children.3/@children.2/@children.0/@children.0/@anchors.0/@link //@children.3/@children.2/@children.1/@link //@children.3/@children.2/@children.1/@children.0/@link //@children.3/@children.2/@children.1/@children.0/@anchors.0/@link //@children.3/@children.2/@link //@children.3/@children.3/@children.0/@link //@children.3/@children.3/@children.0/@children.0/@link //@children.3/@children.3/@children.0/@children.0/@anchors.0/@link //@children.3/@children.3/@link //@children.4/@link //@children.4/@children.1/@children.1/@link //@children.4/@children.1/@children.1/@anchors.0/@link //@children.4/@children.2/@children.0/@link //@children.4/@children.2/@children.0/@children.0/@link //@children.4/@children.2/@children.0/@children.0/@anchors.0/@link //@children.4/@children.2/@link //@children.4/@children.3/@children.0/@link //@children.4/@children.3/@children.0/@children.0/@link //@children.4/@children.3/@children.0/@children.0/@anchors.0/@link //@children.4/@children.3/@link //@children.5/@link //@children.5/@children.1/@children.1/@link //@children.5/@children.1/@children.1/@anchors.0/@link //@children.5/@children.2/@link //@children.5/@children.3/@children.1/@link //@children.5/@children.3/@children.1/@children.0/@link //@children.5/@children.3/@children.1/@children.0/@anchors.0/@link //@children.5/@children.3/@children.0/@link //@children.5/@children.3/@children.0/@children.0/@link //@children.5/@children.3/@children.0/@children.0/@anchors.0/@link //@children.5/@children.3/@link //@connections.0/@link //@connections.1/@link //@connections.2/@link //@connections.3/@link //@connections.4/@link" version="0.12.0">
   <properties key="DiagramContext" value="design"/>
   <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.1" foreground="//@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
   <link>
     <businessObjects href="basic_components_demo.sad.xml#DCE:d4d99400-1a11-11e5-a6ce-3417ebc4aab5"/>
   </link>
-  <children xsi:type="ext:ComponentShape" visible="true" active="true" connectionMap="ACED0005737200256A6176612E7574696C2E436F6C6C656374696F6E732453796E6368726F6E697A65644D61701B73F9094B4B397B0300024C00016D74000F4C6A6176612F7574696C2F4D61703B4C00056D757465787400124C6A6176612F6C616E672F4F626A6563743B7870737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F40000000000010770800000010000000007871007E000378" hasPortsContainerShape="true">
+  <children xsi:type="ext:ComponentShape" visible="true" active="true" hasPortsContainerShape="true">
     <properties key="GAType" value="outerContainerShape"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.5" width="210" height="110" x="24" y="24" style="//@styles.0" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="201" height="105" x="23" y="23" cornerHeight="5" cornerWidth="5">
       <properties key="GAType" value="outerRoundedRectangle"/>
       <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="20" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentPlacement" stretchH="false" stretchV="false" proportional="false">
         <properties key="GAType" value="outerRoundedRectangleImage"/>
       </graphicsAlgorithmChildren>
-      <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="170" height="20" x="40" style="//@styles.1" value="rh.SigGen">
+      <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="161" height="20" x="40" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="rh.SigGen">
         <properties key="GAType" value="outerRoundedRectangleText"/>
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.OuterText"/>
       </graphicsAlgorithmChildren>
+      <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.OuterShape"/>
     </graphicsAlgorithm>
     <link>
       <businessObjects href="basic_components_demo.sad.xml#SigGen_sine"/>
@@ -22,66 +24,73 @@
     </link>
     <children xsi:type="pi:ContainerShape" visible="true">
       <properties key="GAType" value="innerContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="175" height="90" x="20" y="20" style="//@styles.2" cornerHeight="5" cornerWidth="5">
+      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="166" height="85" x="20" y="20" cornerHeight="10" cornerWidth="10">
         <properties key="GAType" value="innerRoundedRectangle"/>
-        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="33" y="8" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentInstance" stretchH="false" stretchV="false" proportional="false">
+        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="28" y="8" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentInstance" stretchH="false" stretchV="false" proportional="false">
           <properties key="GAType" value="innerRoundedRectangleImage"/>
         </graphicsAlgorithmChildren>
-        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="98" height="18" x="54" y="8" style="//@styles.3" value="SigGen_sine">
+        <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="98" height="18" x="49" y="8" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="SigGen_sine">
           <properties key="GAType" value="innerRoundedRectangleText"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.InnerText"/>
         </graphicsAlgorithmChildren>
-        <graphicsAlgorithmChildren xsi:type="al:Polyline" background="//@colors.2" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0">
+        <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
           <properties key="GAType" value="innerRoundedRectangleLine"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ComponentInner"/>
           <points y="28"/>
-          <points x="175" y="28"/>
+          <points x="166" y="28"/>
         </graphicsAlgorithmChildren>
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ComponentInner"/>
       </graphicsAlgorithm>
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="ShapeType" value="startOrderEllipseShape"/>
-        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="17" height="17" x="153" y="5" style="//@styles.7">
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="17" height="17" x="144" y="5">
           <properties key="GAType" value="startOrderEllipse"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.StartOrderAssemblyControllerEllipse"/>
         </graphicsAlgorithm>
-        <link>
-          <businessObjects href="basic_components_demo.sad.xml#//@assemblyController"/>
-        </link>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="17" height="17" x="5" style="//@styles.8" value="0">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="17" height="17" x="5" value="0">
             <properties key="GAType" value="startOrderText"/>
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.StartOrder"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="GAType" value="interfaceContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="25"/>
-      <link>
-        <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@interfaceStub"/>
-      </link>
-      <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.0/@children.1/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="-5"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="20" height="10" y="25"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Lollipop"/>
+          <points x="9" y="5"/>
+          <points x="20" y="5"/>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="10" height="10">
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Lollipop"/>
+        </graphicsAlgorithm>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@interfaceStub"/>
         </link>
-        <location y="7"/>
-      </anchors>
-      <children visible="true" active="true">
-        <properties key="GAType" value="interfaceEllipseShape"/>
-        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="10" height="10" style="//@styles.4"/>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="10" height="1" x="10" y="5" style="//@styles.5"/>
+        <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.0/@children.1/@children.1/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+          <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="10" height="10" y="-5"/>
+          <link>
+            <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@interfaceStub"/>
+          </link>
+          <location y="5"/>
+        </anchors>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="ShapeType" value="providesPortsContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="45" x="5" y="60">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" x="5" y="60">
         <properties key="GAType" value="providesPortsRectangle"/>
       </graphicsAlgorithm>
       <link/>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="ShapeType" value="usesPortsContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="115" height="40" x="95" y="60">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="99" height="35" x="102" y="60">
         <properties key="GAType" value="usesPortsRectangle"/>
       </graphicsAlgorithm>
       <link>
@@ -90,21 +99,21 @@
       </link>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="usesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="110" height="15" x="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="97" height="15" x="2"/>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.0"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="usesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="95" style="//@styles.6">
-            <properties key="GAType" value="usesPortRectangle"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="15" height="15" x="82">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.UsesPort"/>
           </graphicsAlgorithm>
           <link>
             <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.0"/>
           </link>
           <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.0" referencedGraphicsAlgorithm="//@children.0/@children.3/@children.0/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
-              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="15" height="15" x="-15" y="-7">
+              <properties key="GAType" value="fixPointAnchorRectangle"/>
             </graphicsAlgorithm>
             <link>
               <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.0"/>
@@ -113,28 +122,28 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="90" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataFloat_out">
-            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="77" height="15" horizontalAlignment="ALIGNMENT_RIGHT" verticalAlignment="UNSPECIFIED" value="dataFloat_out">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.PortText"/>
           </graphicsAlgorithm>
         </children>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="usesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="110" height="15" x="5" y="20"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="99" height="15" y="20"/>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.1"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="usesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="95" style="//@styles.6">
-            <properties key="GAType" value="usesPortRectangle"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="15" height="15" x="84">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.UsesPort"/>
           </graphicsAlgorithm>
           <link>
             <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.1"/>
           </link>
           <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.0/@children.3/@children.1/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
-              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="15" height="15" x="-15" y="-7">
+              <properties key="GAType" value="fixPointAnchorRectangle"/>
             </graphicsAlgorithm>
             <link>
               <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.1"/>
@@ -143,23 +152,25 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="90" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataShort_out">
-            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="79" height="15" horizontalAlignment="ALIGNMENT_RIGHT" verticalAlignment="UNSPECIFIED" value="dataShort_out">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.PortText"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
   </children>
-  <children xsi:type="ext:ComponentShape" visible="true" active="true" connectionMap="ACED0005737200256A6176612E7574696C2E436F6C6C656374696F6E732453796E6368726F6E697A65644D61701B73F9094B4B397B0300024C00016D74000F4C6A6176612F7574696C2F4D61703B4C00056D757465787400124C6A6176612F6C616E672F4F626A6563743B7870737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F40000000000010770800000010000000007871007E000378" hasPortsContainerShape="true">
+  <children xsi:type="ext:ComponentShape" visible="true" active="true" hasPortsContainerShape="true">
     <properties key="GAType" value="outerContainerShape"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.5" width="220" height="90" x="306" y="24" style="//@styles.0" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="200" height="85" x="293" y="23" cornerHeight="5" cornerWidth="5">
       <properties key="GAType" value="outerRoundedRectangle"/>
       <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="20" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentPlacement" stretchH="false" stretchV="false" proportional="false">
         <properties key="GAType" value="outerRoundedRectangleImage"/>
       </graphicsAlgorithmChildren>
-      <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="180" height="20" x="40" style="//@styles.1" value="rh.HardLimit">
+      <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="160" height="20" x="40" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="rh.HardLimit">
         <properties key="GAType" value="outerRoundedRectangleText"/>
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.OuterText"/>
       </graphicsAlgorithmChildren>
+      <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.OuterShape"/>
     </graphicsAlgorithm>
     <link>
       <businessObjects href="basic_components_demo.sad.xml#HardLimit_1"/>
@@ -167,56 +178,66 @@
     </link>
     <children xsi:type="pi:ContainerShape" visible="true">
       <properties key="GAType" value="innerContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="185" height="70" x="20" y="20" style="//@styles.2" cornerHeight="5" cornerWidth="5">
+      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="165" height="65" x="20" y="20" cornerHeight="10" cornerWidth="10">
         <properties key="GAType" value="innerRoundedRectangle"/>
-        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="38" y="8" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentInstance" stretchH="false" stretchV="false" proportional="false">
+        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="28" y="8" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentInstance" stretchH="false" stretchV="false" proportional="false">
           <properties key="GAType" value="innerRoundedRectangleImage"/>
         </graphicsAlgorithmChildren>
-        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="97" height="18" x="59" y="8" style="//@styles.3" value="HardLimit_1">
+        <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="97" height="18" x="49" y="8" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="HardLimit_1">
           <properties key="GAType" value="innerRoundedRectangleText"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.InnerText"/>
         </graphicsAlgorithmChildren>
-        <graphicsAlgorithmChildren xsi:type="al:Polyline" background="//@colors.2" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0">
+        <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
           <properties key="GAType" value="innerRoundedRectangleLine"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ComponentInner"/>
           <points y="28"/>
-          <points x="185" y="28"/>
+          <points x="165" y="28"/>
         </graphicsAlgorithmChildren>
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ComponentInner"/>
       </graphicsAlgorithm>
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="ShapeType" value="startOrderEllipseShape"/>
-        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="17" height="17" x="163" y="5" style="//@styles.12">
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="17" height="17" x="143" y="5">
           <properties key="GAType" value="startOrderEllipse"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.StartOrderEllipse"/>
         </graphicsAlgorithm>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="17" height="17" x="5" style="//@styles.8" value="2">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="17" height="17" x="5" value="2">
             <properties key="GAType" value="startOrderText"/>
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.StartOrder"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="GAType" value="interfaceContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="25"/>
-      <link>
-        <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@interfaceStub"/>
-      </link>
-      <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.1/@children.1/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="-5"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="20" height="10" y="25"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Lollipop"/>
+          <points x="9" y="5"/>
+          <points x="20" y="5"/>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="10" height="10">
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Lollipop"/>
+        </graphicsAlgorithm>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@interfaceStub"/>
         </link>
-        <location y="7"/>
-      </anchors>
-      <children visible="true" active="true">
-        <properties key="GAType" value="interfaceEllipseShape"/>
-        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="10" height="10" style="//@styles.4"/>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="10" height="1" x="10" y="5" style="//@styles.5"/>
+        <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.1/@children.1/@children.1/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+          <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="10" height="10" y="-5"/>
+          <link>
+            <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@interfaceStub"/>
+          </link>
+          <location y="5"/>
+        </anchors>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="ShapeType" value="providesPortsContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="90" height="20" x="5" y="60">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="89" height="15" x="5" y="60">
         <properties key="GAType" value="providesPortsRectangle"/>
       </graphicsAlgorithm>
       <link>
@@ -224,19 +245,21 @@
       </link>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="providesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="90" height="15"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="89" height="15"/>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.0"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="providesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" style="//@styles.11"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="15" height="15">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ProvidesPort"/>
+          </graphicsAlgorithm>
           <link>
             <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.0"/>
           </link>
           <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.0" referencedGraphicsAlgorithm="//@children.1/@children.2/@children.0/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" y="-7" style="//@styles.11">
-              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="15" height="15" y="-7">
+              <properties key="GAType" value="fixPointAnchorRectangle"/>
             </graphicsAlgorithm>
             <link>
               <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.0"/>
@@ -245,15 +268,15 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="525" height="20" x="20" style="//@styles.11" value="dataFloat_in">
-            <properties key="GAType" value="GA_PROVIDES_PORT_TEXT"/>
+          <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="69" height="15" x="20" verticalAlignment="UNSPECIFIED" value="dataFloat_in">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.PortText"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="ShapeType" value="usesPortsContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="115" height="20" x="105" y="60">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="97" height="15" x="103" y="60">
         <properties key="GAType" value="usesPortsRectangle"/>
       </graphicsAlgorithm>
       <link>
@@ -261,21 +284,21 @@
       </link>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="usesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="110" height="15" x="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="97" height="15"/>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@uses.0"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="usesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="95" style="//@styles.6">
-            <properties key="GAType" value="usesPortRectangle"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="15" height="15" x="82">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.UsesPort"/>
           </graphicsAlgorithm>
           <link>
             <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@uses.0"/>
           </link>
           <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.1" referencedGraphicsAlgorithm="//@children.1/@children.3/@children.0/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
-              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="15" height="15" x="-15" y="-7">
+              <properties key="GAType" value="fixPointAnchorRectangle"/>
             </graphicsAlgorithm>
             <link>
               <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@uses.0"/>
@@ -284,23 +307,25 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="90" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataFloat_out">
-            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="77" height="15" horizontalAlignment="ALIGNMENT_RIGHT" verticalAlignment="UNSPECIFIED" value="dataFloat_out">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.PortText"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
   </children>
-  <children xsi:type="ext:ComponentShape" visible="true" active="true" connectionMap="ACED0005737200256A6176612E7574696C2E436F6C6C656374696F6E732453796E6368726F6E697A65644D61701B73F9094B4B397B0300024C00016D74000F4C6A6176612F7574696C2F4D61703B4C00056D757465787400124C6A6176612F6C616E672F4F626A6563743B7870737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F40000000000010770800000010000000007871007E000378" hasPortsContainerShape="true">
+  <children xsi:type="ext:ComponentShape" visible="true" active="true" hasPortsContainerShape="true">
     <properties key="GAType" value="outerContainerShape"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.5" width="220" height="90" x="869" y="235" style="//@styles.0" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="196" height="85" x="833" y="225" cornerHeight="5" cornerWidth="5">
       <properties key="GAType" value="outerRoundedRectangle"/>
       <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="20" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentPlacement" stretchH="false" stretchV="false" proportional="false">
         <properties key="GAType" value="outerRoundedRectangleImage"/>
       </graphicsAlgorithmChildren>
-      <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="180" height="20" x="40" style="//@styles.1" value="rh.agc">
+      <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="156" height="20" x="40" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="rh.agc">
         <properties key="GAType" value="outerRoundedRectangleText"/>
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.OuterText"/>
       </graphicsAlgorithmChildren>
+      <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.OuterShape"/>
     </graphicsAlgorithm>
     <link>
       <businessObjects href="basic_components_demo.sad.xml#agc_1"/>
@@ -308,56 +333,66 @@
     </link>
     <children xsi:type="pi:ContainerShape" visible="true">
       <properties key="GAType" value="innerContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="185" height="70" x="20" y="20" style="//@styles.2" cornerHeight="5" cornerWidth="5">
+      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="161" height="65" x="20" y="20" cornerHeight="10" cornerWidth="10">
         <properties key="GAType" value="innerRoundedRectangle"/>
-        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="61" y="8" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentInstance" stretchH="false" stretchV="false" proportional="false">
+        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="49" y="8" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentInstance" stretchH="false" stretchV="false" proportional="false">
           <properties key="GAType" value="innerRoundedRectangleImage"/>
         </graphicsAlgorithmChildren>
-        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="52" height="18" x="82" y="8" style="//@styles.3" value="agc_1">
+        <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="52" height="18" x="70" y="8" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="agc_1">
           <properties key="GAType" value="innerRoundedRectangleText"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.InnerText"/>
         </graphicsAlgorithmChildren>
-        <graphicsAlgorithmChildren xsi:type="al:Polyline" background="//@colors.2" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0">
+        <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
           <properties key="GAType" value="innerRoundedRectangleLine"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ComponentInner"/>
           <points y="28"/>
-          <points x="185" y="28"/>
+          <points x="161" y="28"/>
         </graphicsAlgorithmChildren>
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ComponentInner"/>
       </graphicsAlgorithm>
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="ShapeType" value="startOrderEllipseShape"/>
-        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="17" height="17" x="163" y="5" style="//@styles.12">
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="17" height="17" x="139" y="5">
           <properties key="GAType" value="startOrderEllipse"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.StartOrderEllipse"/>
         </graphicsAlgorithm>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="17" height="17" x="5" style="//@styles.8" value="4">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="17" height="17" x="5" value="4">
             <properties key="GAType" value="startOrderText"/>
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.StartOrder"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="GAType" value="interfaceContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="25"/>
-      <link>
-        <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@interfaceStub"/>
-      </link>
-      <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@children.1/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="-5"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="20" height="10" y="25"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Lollipop"/>
+          <points x="9" y="5"/>
+          <points x="20" y="5"/>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="10" height="10">
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Lollipop"/>
+        </graphicsAlgorithm>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@interfaceStub"/>
         </link>
-        <location y="7"/>
-      </anchors>
-      <children visible="true" active="true">
-        <properties key="GAType" value="interfaceEllipseShape"/>
-        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="10" height="10" style="//@styles.4"/>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="10" height="1" x="10" y="5" style="//@styles.5"/>
+        <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@children.1/@children.1/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+          <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="10" height="10" y="-5"/>
+          <link>
+            <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@interfaceStub"/>
+          </link>
+          <location y="5"/>
+        </anchors>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="ShapeType" value="providesPortsContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="90" height="20" x="5" y="60">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="89" height="15" x="5" y="60">
         <properties key="GAType" value="providesPortsRectangle"/>
       </graphicsAlgorithm>
       <link>
@@ -365,19 +400,21 @@
       </link>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="providesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="90" height="15"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="89" height="15"/>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@provides.0"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="providesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" style="//@styles.11"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="15" height="15">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ProvidesPort"/>
+          </graphicsAlgorithm>
           <link>
             <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@provides.0"/>
           </link>
           <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.3" referencedGraphicsAlgorithm="//@children.2/@children.2/@children.0/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" y="-7" style="//@styles.11">
-              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="15" height="15" y="-7">
+              <properties key="GAType" value="fixPointAnchorRectangle"/>
             </graphicsAlgorithm>
             <link>
               <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@provides.0"/>
@@ -386,15 +423,15 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="525" height="20" x="20" style="//@styles.11" value="dataFloat_in">
-            <properties key="GAType" value="GA_PROVIDES_PORT_TEXT"/>
+          <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="69" height="15" x="20" verticalAlignment="UNSPECIFIED" value="dataFloat_in">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.PortText"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="ShapeType" value="usesPortsContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="115" height="20" x="105" y="60">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="97" height="15" x="99" y="60">
         <properties key="GAType" value="usesPortsRectangle"/>
       </graphicsAlgorithm>
       <link>
@@ -402,21 +439,21 @@
       </link>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="usesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="110" height="15" x="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="97" height="15"/>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.0"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="usesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="95" style="//@styles.6">
-            <properties key="GAType" value="usesPortRectangle"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="15" height="15" x="82">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.UsesPort"/>
           </graphicsAlgorithm>
           <link>
             <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.0"/>
           </link>
           <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@children.3/@children.0/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
-              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="15" height="15" x="-15" y="-7">
+              <properties key="GAType" value="fixPointAnchorRectangle"/>
             </graphicsAlgorithm>
             <link>
               <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@uses.0"/>
@@ -425,23 +462,25 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="90" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataFloat_out">
-            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="77" height="15" horizontalAlignment="ALIGNMENT_RIGHT" verticalAlignment="UNSPECIFIED" value="dataFloat_out">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.PortText"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
   </children>
-  <children xsi:type="ext:ComponentShape" visible="true" active="true" connectionMap="ACED0005737200256A6176612E7574696C2E436F6C6C656374696F6E732453796E6368726F6E697A65644D61701B73F9094B4B397B0300024C00016D74000F4C6A6176612F7574696C2F4D61703B4C00056D757465787400124C6A6176612F6C616E672F4F626A6563743B7870737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F40000000000010770800000010000000007871007E000378" hasPortsContainerShape="true">
+  <children xsi:type="ext:ComponentShape" visible="true" active="true" hasPortsContainerShape="true">
     <properties key="GAType" value="outerContainerShape"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.5" width="153" height="110" x="588" y="305" style="//@styles.0" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="144" height="105" x="563" y="293" cornerHeight="5" cornerWidth="5">
       <properties key="GAType" value="outerRoundedRectangle"/>
       <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="20" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentPlacement" stretchH="false" stretchV="false" proportional="false">
         <properties key="GAType" value="outerRoundedRectangleImage"/>
       </graphicsAlgorithmChildren>
-      <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="113" height="20" x="40" style="//@styles.1" value="rh.fcalc">
+      <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="104" height="20" x="40" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="rh.fcalc">
         <properties key="GAType" value="outerRoundedRectangleText"/>
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.OuterText"/>
       </graphicsAlgorithmChildren>
+      <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.OuterShape"/>
     </graphicsAlgorithm>
     <link>
       <businessObjects href="basic_components_demo.sad.xml#sum"/>
@@ -449,56 +488,66 @@
     </link>
     <children xsi:type="pi:ContainerShape" visible="true">
       <properties key="GAType" value="innerContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="118" height="90" x="20" y="20" style="//@styles.2" cornerHeight="5" cornerWidth="5">
+      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="109" height="85" x="20" y="20" cornerHeight="10" cornerWidth="10">
         <properties key="GAType" value="innerRoundedRectangle"/>
-        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="33" y="8" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentInstance" stretchH="false" stretchV="false" proportional="false">
+        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="28" y="8" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentInstance" stretchH="false" stretchV="false" proportional="false">
           <properties key="GAType" value="innerRoundedRectangleImage"/>
         </graphicsAlgorithmChildren>
-        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="41" height="18" x="54" y="8" style="//@styles.3" value="sum">
+        <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="41" height="18" x="49" y="8" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="sum">
           <properties key="GAType" value="innerRoundedRectangleText"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.InnerText"/>
         </graphicsAlgorithmChildren>
-        <graphicsAlgorithmChildren xsi:type="al:Polyline" background="//@colors.2" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0">
+        <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
           <properties key="GAType" value="innerRoundedRectangleLine"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ComponentInner"/>
           <points y="28"/>
-          <points x="118" y="28"/>
+          <points x="109" y="28"/>
         </graphicsAlgorithmChildren>
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ComponentInner"/>
       </graphicsAlgorithm>
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="ShapeType" value="startOrderEllipseShape"/>
-        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="17" height="17" x="96" y="5" style="//@styles.12">
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="17" height="17" x="87" y="5">
           <properties key="GAType" value="startOrderEllipse"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.StartOrderEllipse"/>
         </graphicsAlgorithm>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="17" height="17" x="5" style="//@styles.8" value="3">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="17" height="17" x="5" value="3">
             <properties key="GAType" value="startOrderText"/>
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.StartOrder"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="GAType" value="interfaceContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="25"/>
-      <link>
-        <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@interfaceStub"/>
-      </link>
-      <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.3/@children.1/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="-5"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="20" height="10" y="25"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Lollipop"/>
+          <points x="9" y="5"/>
+          <points x="20" y="5"/>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="10" height="10">
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Lollipop"/>
+        </graphicsAlgorithm>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@interfaceStub"/>
         </link>
-        <location y="7"/>
-      </anchors>
-      <children visible="true" active="true">
-        <properties key="GAType" value="interfaceEllipseShape"/>
-        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="10" height="10" style="//@styles.4"/>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="10" height="1" x="10" y="5" style="//@styles.5"/>
+        <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.3/@children.1/@children.1/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+          <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="10" height="10" y="-5"/>
+          <link>
+            <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@interfaceStub"/>
+          </link>
+          <location y="5"/>
+        </anchors>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="ShapeType" value="providesPortsContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="45" height="40" x="5" y="60">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="29" height="35" x="5" y="60">
         <properties key="GAType" value="providesPortsRectangle"/>
       </graphicsAlgorithm>
       <link>
@@ -507,19 +556,21 @@
       </link>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="providesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="45" height="15"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="29" height="15"/>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@provides.0"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="providesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" style="//@styles.11"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="15" height="15">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ProvidesPort"/>
+          </graphicsAlgorithm>
           <link>
             <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@provides.0"/>
           </link>
           <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.1" referencedGraphicsAlgorithm="//@children.3/@children.2/@children.0/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" y="-7" style="//@styles.11">
-              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="15" height="15" y="-7">
+              <properties key="GAType" value="fixPointAnchorRectangle"/>
             </graphicsAlgorithm>
             <link>
               <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@provides.0"/>
@@ -528,26 +579,28 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="210" height="20" x="20" style="//@styles.11" value="a">
-            <properties key="GAType" value="GA_PROVIDES_PORT_TEXT"/>
+          <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="9" height="15" x="20" verticalAlignment="UNSPECIFIED" value="a">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.PortText"/>
           </graphicsAlgorithm>
         </children>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="providesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="45" height="15" y="20"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="29" height="15" y="20"/>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@provides.1"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="providesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" style="//@styles.11"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="15" height="15">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ProvidesPort"/>
+          </graphicsAlgorithm>
           <link>
             <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@provides.1"/>
           </link>
           <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.2" referencedGraphicsAlgorithm="//@children.3/@children.2/@children.1/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" y="-7" style="//@styles.11">
-              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="15" height="15" y="-7">
+              <properties key="GAType" value="fixPointAnchorRectangle"/>
             </graphicsAlgorithm>
             <link>
               <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@provides.1"/>
@@ -556,15 +609,15 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="210" height="20" x="20" style="//@styles.11" value="b">
-            <properties key="GAType" value="GA_PROVIDES_PORT_TEXT"/>
+          <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="9" height="15" x="20" verticalAlignment="UNSPECIFIED" value="b">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.PortText"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="ShapeType" value="usesPortsContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="62" height="20" x="91" y="60">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="40" height="15" x="104" y="60">
         <properties key="GAType" value="usesPortsRectangle"/>
       </graphicsAlgorithm>
       <link>
@@ -572,21 +625,21 @@
       </link>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="usesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="57" height="15" x="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="40" height="15"/>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@uses.0"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="usesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="42" style="//@styles.6">
-            <properties key="GAType" value="usesPortRectangle"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="15" height="15" x="25">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.UsesPort"/>
           </graphicsAlgorithm>
           <link>
             <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@uses.0"/>
           </link>
           <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.3 //@connections.4" referencedGraphicsAlgorithm="//@children.3/@children.3/@children.0/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
-              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="15" height="15" x="-15" y="-7">
+              <properties key="GAType" value="fixPointAnchorRectangle"/>
             </graphicsAlgorithm>
             <link>
               <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@uses.0"/>
@@ -595,23 +648,25 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="37" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="out">
-            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="20" height="15" horizontalAlignment="ALIGNMENT_RIGHT" verticalAlignment="UNSPECIFIED" value="out">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.PortText"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
   </children>
-  <children xsi:type="ext:ComponentShape" visible="true" active="true" connectionMap="ACED0005737200256A6176612E7574696C2E436F6C6C656374696F6E732453796E6368726F6E697A65644D61701B73F9094B4B397B0300024C00016D74000F4C6A6176612F7574696C2F4D61703B4C00056D757465787400124C6A6176612F6C616E672F4F626A6563743B7870737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F40000000000010770800000010000000007871007E000378" hasPortsContainerShape="true">
+  <children xsi:type="ext:ComponentShape" visible="true" active="true" hasPortsContainerShape="true">
     <properties key="GAType" value="outerContainerShape"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.5" width="237" height="90" x="869" y="375" style="//@styles.0" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="228" height="85" x="833" y="360" cornerHeight="5" cornerWidth="5">
       <properties key="GAType" value="outerRoundedRectangle"/>
       <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="20" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentPlacement" stretchH="false" stretchV="false" proportional="false">
         <properties key="GAType" value="outerRoundedRectangleImage"/>
       </graphicsAlgorithmChildren>
-      <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="197" height="20" x="40" style="//@styles.1" value="rh.autocorrelate">
+      <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="188" height="20" x="40" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="rh.autocorrelate">
         <properties key="GAType" value="outerRoundedRectangleText"/>
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.OuterText"/>
       </graphicsAlgorithmChildren>
+      <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.OuterShape"/>
     </graphicsAlgorithm>
     <link>
       <businessObjects href="basic_components_demo.sad.xml#autocorrelate_1"/>
@@ -619,56 +674,66 @@
     </link>
     <children xsi:type="pi:ContainerShape" visible="true">
       <properties key="GAType" value="innerContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="202" height="70" x="20" y="20" style="//@styles.2" cornerHeight="5" cornerWidth="5">
+      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="193" height="65" x="20" y="20" cornerHeight="10" cornerWidth="10">
         <properties key="GAType" value="innerRoundedRectangle"/>
-        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="33" y="8" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentInstance" stretchH="false" stretchV="false" proportional="false">
+        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="28" y="8" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentInstance" stretchH="false" stretchV="false" proportional="false">
           <properties key="GAType" value="innerRoundedRectangleImage"/>
         </graphicsAlgorithmChildren>
-        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="125" height="18" x="54" y="8" style="//@styles.3" value="autocorrelate_1">
+        <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="125" height="18" x="49" y="8" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="autocorrelate_1">
           <properties key="GAType" value="innerRoundedRectangleText"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.InnerText"/>
         </graphicsAlgorithmChildren>
-        <graphicsAlgorithmChildren xsi:type="al:Polyline" background="//@colors.2" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0">
+        <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
           <properties key="GAType" value="innerRoundedRectangleLine"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ComponentInner"/>
           <points y="28"/>
-          <points x="202" y="28"/>
+          <points x="193" y="28"/>
         </graphicsAlgorithmChildren>
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ComponentInner"/>
       </graphicsAlgorithm>
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="ShapeType" value="startOrderEllipseShape"/>
-        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="17" height="17" x="180" y="5" style="//@styles.12">
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="17" height="17" x="171" y="5">
           <properties key="GAType" value="startOrderEllipse"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.StartOrderEllipse"/>
         </graphicsAlgorithm>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="17" height="17" x="5" style="//@styles.8" value="5">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="17" height="17" x="5" value="5">
             <properties key="GAType" value="startOrderText"/>
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.StartOrder"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="GAType" value="interfaceContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="25"/>
-      <link>
-        <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@interfaceStub"/>
-      </link>
-      <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.4/@children.1/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="-5"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="20" height="10" y="25"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Lollipop"/>
+          <points x="9" y="5"/>
+          <points x="20" y="5"/>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="10" height="10">
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Lollipop"/>
+        </graphicsAlgorithm>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@interfaceStub"/>
         </link>
-        <location y="7"/>
-      </anchors>
-      <children visible="true" active="true">
-        <properties key="GAType" value="interfaceEllipseShape"/>
-        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="10" height="10" style="//@styles.4"/>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="10" height="1" x="10" y="5" style="//@styles.5"/>
+        <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.4/@children.1/@children.1/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+          <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="10" height="10" y="-5"/>
+          <link>
+            <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@interfaceStub"/>
+          </link>
+          <location y="5"/>
+        </anchors>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="ShapeType" value="providesPortsContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="90" height="20" x="5" y="60">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="89" height="15" x="5" y="60">
         <properties key="GAType" value="providesPortsRectangle"/>
       </graphicsAlgorithm>
       <link>
@@ -676,19 +741,21 @@
       </link>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="providesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="90" height="15"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="89" height="15"/>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@provides.0"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="providesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" style="//@styles.11"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="15" height="15">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ProvidesPort"/>
+          </graphicsAlgorithm>
           <link>
             <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@provides.0"/>
           </link>
           <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.4" referencedGraphicsAlgorithm="//@children.4/@children.2/@children.0/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" y="-7" style="//@styles.11">
-              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="15" height="15" y="-7">
+              <properties key="GAType" value="fixPointAnchorRectangle"/>
             </graphicsAlgorithm>
             <link>
               <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@provides.0"/>
@@ -697,15 +764,15 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="525" height="20" x="20" style="//@styles.11" value="dataFloat_in">
-            <properties key="GAType" value="GA_PROVIDES_PORT_TEXT"/>
+          <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="69" height="15" x="20" verticalAlignment="UNSPECIFIED" value="dataFloat_in">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.PortText"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="ShapeType" value="usesPortsContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="115" height="20" x="122" y="60">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="97" height="15" x="131" y="60">
         <properties key="GAType" value="usesPortsRectangle"/>
       </graphicsAlgorithm>
       <link>
@@ -713,21 +780,21 @@
       </link>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="usesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="110" height="15" x="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="97" height="15"/>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@uses.0"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="usesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="95" style="//@styles.6">
-            <properties key="GAType" value="usesPortRectangle"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="15" height="15" x="82">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.UsesPort"/>
           </graphicsAlgorithm>
           <link>
             <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@uses.0"/>
           </link>
           <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.4/@children.3/@children.0/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
-              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="15" height="15" x="-15" y="-7">
+              <properties key="GAType" value="fixPointAnchorRectangle"/>
             </graphicsAlgorithm>
             <link>
               <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@uses.0"/>
@@ -736,23 +803,25 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="90" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataFloat_out">
-            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="77" height="15" horizontalAlignment="ALIGNMENT_RIGHT" verticalAlignment="UNSPECIFIED" value="dataFloat_out">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.PortText"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
   </children>
-  <children xsi:type="ext:ComponentShape" visible="true" active="true" connectionMap="ACED0005737200256A6176612E7574696C2E436F6C6C656374696F6E732453796E6368726F6E697A65644D61701B73F9094B4B397B0300024C00016D74000F4C6A6176612F7574696C2F4D61703B4C00056D757465787400124C6A6176612F6C616E672F4F626A6563743B7870737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F40000000000010770800000010000000007871007E000378" hasPortsContainerShape="true">
+  <children xsi:type="ext:ComponentShape" visible="true" active="true" hasPortsContainerShape="true">
     <properties key="GAType" value="outerContainerShape"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.5" width="219" height="110" x="24" y="305" style="//@styles.0" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="210" height="105" x="23" y="293" cornerHeight="5" cornerWidth="5">
       <properties key="GAType" value="outerRoundedRectangle"/>
       <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="20" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentPlacement" stretchH="false" stretchV="false" proportional="false">
         <properties key="GAType" value="outerRoundedRectangleImage"/>
       </graphicsAlgorithmChildren>
-      <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="179" height="20" x="40" style="//@styles.1" value="rh.SigGen">
+      <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="170" height="20" x="40" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="rh.SigGen">
         <properties key="GAType" value="outerRoundedRectangleText"/>
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.OuterText"/>
       </graphicsAlgorithmChildren>
+      <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.OuterShape"/>
     </graphicsAlgorithm>
     <link>
       <businessObjects href="basic_components_demo.sad.xml#SigGen_noise"/>
@@ -760,63 +829,73 @@
     </link>
     <children xsi:type="pi:ContainerShape" visible="true">
       <properties key="GAType" value="innerContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="184" height="90" x="20" y="20" style="//@styles.2" cornerHeight="5" cornerWidth="5">
+      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="175" height="85" x="20" y="20" cornerHeight="10" cornerWidth="10">
         <properties key="GAType" value="innerRoundedRectangle"/>
-        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="33" y="8" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentInstance" stretchH="false" stretchV="false" proportional="false">
+        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="16" height="16" x="28" y="8" id="gov.redhawk.ide.graphiti.sad.ui.diagram.providers.imageProvider.componentInstance" stretchH="false" stretchV="false" proportional="false">
           <properties key="GAType" value="innerRoundedRectangleImage"/>
         </graphicsAlgorithmChildren>
-        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="107" height="18" x="54" y="8" style="//@styles.3" value="SigGen_noise">
+        <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="107" height="18" x="49" y="8" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="SigGen_noise">
           <properties key="GAType" value="innerRoundedRectangleText"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.InnerText"/>
         </graphicsAlgorithmChildren>
-        <graphicsAlgorithmChildren xsi:type="al:Polyline" background="//@colors.2" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0">
+        <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
           <properties key="GAType" value="innerRoundedRectangleLine"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ComponentInner"/>
           <points y="28"/>
-          <points x="184" y="28"/>
+          <points x="175" y="28"/>
         </graphicsAlgorithmChildren>
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.ComponentInner"/>
       </graphicsAlgorithm>
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="ShapeType" value="startOrderEllipseShape"/>
-        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="17" height="17" x="162" y="5" style="//@styles.12">
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="17" height="17" x="153" y="5">
           <properties key="GAType" value="startOrderEllipse"/>
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.StartOrderEllipse"/>
         </graphicsAlgorithm>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="17" height="17" x="5" style="//@styles.8" value="1">
+          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="17" height="17" x="5" value="1">
             <properties key="GAType" value="startOrderText"/>
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.StartOrder"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="GAType" value="interfaceContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="25"/>
-      <link>
-        <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.5/@componentInstantiation.0/@interfaceStub"/>
-      </link>
-      <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.5/@children.1/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.99" width="20" height="10" y="-5"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="20" height="10" y="25"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Lollipop"/>
+          <points x="9" y="5"/>
+          <points x="20" y="5"/>
+        </graphicsAlgorithm>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="10" height="10">
+          <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Lollipop"/>
+        </graphicsAlgorithm>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.5/@componentInstantiation.0/@interfaceStub"/>
         </link>
-        <location y="7"/>
-      </anchors>
-      <children visible="true" active="true">
-        <properties key="GAType" value="interfaceEllipseShape"/>
-        <graphicsAlgorithm xsi:type="al:Ellipse" lineWidth="1" transparency="0.0" width="10" height="10" style="//@styles.4"/>
-      </children>
-      <children xsi:type="pi:ContainerShape" visible="true">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="10" height="1" x="10" y="5" style="//@styles.5"/>
+        <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.5/@children.1/@children.1/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
+          <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="10" height="10" y="-5"/>
+          <link>
+            <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.5/@componentInstantiation.0/@interfaceStub"/>
+          </link>
+          <location y="5"/>
+        </anchors>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="ShapeType" value="providesPortsContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="45" x="5" y="60">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" x="5" y="60">
         <properties key="GAType" value="providesPortsRectangle"/>
       </graphicsAlgorithm>
       <link/>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="ShapeType" value="usesPortsContainerShape"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="115" height="40" x="104" y="60">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="99" height="35" x="111" y="60">
         <properties key="GAType" value="usesPortsRectangle"/>
       </graphicsAlgorithm>
       <link>
@@ -825,21 +904,21 @@
       </link>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="usesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="110" height="15" x="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="97" height="15" x="2"/>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.5/@componentInstantiation.0/@uses.0"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="usesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="95" style="//@styles.6">
-            <properties key="GAType" value="usesPortRectangle"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="15" height="15" x="82">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.UsesPort"/>
           </graphicsAlgorithm>
           <link>
             <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.5/@componentInstantiation.0/@uses.0"/>
           </link>
           <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.2" referencedGraphicsAlgorithm="//@children.5/@children.3/@children.0/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
-              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="15" height="15" x="-15" y="-7">
+              <properties key="GAType" value="fixPointAnchorRectangle"/>
             </graphicsAlgorithm>
             <link>
               <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.5/@componentInstantiation.0/@uses.0"/>
@@ -848,28 +927,28 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="90" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataFloat_out">
-            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="77" height="15" horizontalAlignment="ALIGNMENT_RIGHT" verticalAlignment="UNSPECIFIED" value="dataFloat_out">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.PortText"/>
           </graphicsAlgorithm>
         </children>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="ShapeType" value="usesPortContainerShape"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="1.0" width="110" height="15" x="5" y="20"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="99" height="15" y="20"/>
         <link>
           <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.5/@componentInstantiation.0/@uses.1"/>
         </link>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ShapeType" value="usesPortRectangleShape"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="95" style="//@styles.6">
-            <properties key="GAType" value="usesPortRectangle"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="15" height="15" x="84">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.UsesPort"/>
           </graphicsAlgorithm>
           <link>
             <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.5/@componentInstantiation.0/@uses.1"/>
           </link>
           <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.5/@children.3/@children.1/@children.0/@graphicsAlgorithm" useAnchorLocationAsConnectionEndpoint="true">
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" transparency="0.0" width="15" height="15" x="-15" y="-7" style="//@styles.6">
-              <properties key="GAType" value="GA_FIX_POINT_ANCHOR_RECTANGLE"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="15" height="15" x="-15" y="-7">
+              <properties key="GAType" value="fixPointAnchorRectangle"/>
             </graphicsAlgorithm>
             <link>
               <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.5/@componentInstantiation.0/@uses.1"/>
@@ -878,143 +957,103 @@
           </anchors>
         </children>
         <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="90" height="20" style="//@styles.6" horizontalAlignment="ALIGNMENT_RIGHT" value="dataShort_out">
-            <properties key="GAType" value="GA_USES_PORT_TEXT"/>
+          <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="79" height="15" horizontalAlignment="ALIGNMENT_RIGHT" verticalAlignment="UNSPECIFIED" value="dataShort_out">
+            <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.PortText"/>
           </graphicsAlgorithm>
         </children>
       </children>
     </children>
   </children>
-  <styles background="//@colors.3" foreground="//@colors.2" lineWidth="0" lineVisible="false" id="gov.redhawk.style.ComponentOuter" font="//@fonts.0"/>
-  <styles foreground="//@colors.2" lineWidth="2" id="gov.redhawk.style.OuterText" font="//@fonts.1"/>
-  <styles lineWidth="2" id="gov.redhawk.style.ComponentInner">
-    <renderingStyle>
-      <adaptedGradientColoredAreas definedStyleId="blue-white" gradientType="0">
-        <adaptedGradientColoredAreas styleAdaption="0">
-          <gradientColor>
-            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-              <color red="212" green="231" blue="248"/>
-            </start>
-            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-              <color red="250" green="251" blue="252"/>
-            </end>
-          </gradientColor>
-        </adaptedGradientColoredAreas>
-        <adaptedGradientColoredAreas styleAdaption="1">
-          <gradientColor>
-            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-              <color red="129" green="185" blue="234"/>
-            </start>
-            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-              <color red="170" green="208" blue="242"/>
-            </end>
-          </gradientColor>
-        </adaptedGradientColoredAreas>
-        <adaptedGradientColoredAreas styleAdaption="2">
-          <gradientColor>
-            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
-              <color red="187" green="218" blue="247"/>
-            </start>
-            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
-              <color red="197" green="224" blue="247"/>
-            </end>
-          </gradientColor>
-        </adaptedGradientColoredAreas>
-      </adaptedGradientColoredAreas>
-    </renderingStyle>
-  </styles>
-  <styles foreground="//@colors.2" lineWidth="2" id="gov.redhawk.style.InnerText" font="//@fonts.2"/>
-  <styles background="//@colors.1" lineWidth="1" transparency="0.99" id="gov.redhawk.style.LollipopEllipse"/>
-  <styles background="//@colors.2" id="gov.redhawk.style.LollipopLine"/>
-  <styles background="//@colors.2" foreground="//@colors.2" lineWidth="2" lineVisible="true" id="gov.redhawk.style.UsesPort" font="//@fonts.0"/>
-  <styles background="//@colors.4" lineWidth="1" transparency="0.99" id="gov.redhawk.style.StartOrderAssemblyControllerEllipse"/>
-  <styles background="//@colors.1" foreground="//@colors.2" id="gov.redhawk.style.StartOrderText" font="//@fonts.0"/>
-  <styles background="//@colors.5" foreground="//@colors.2" lineWidth="2" lineVisible="true" id="gov.redhawk.style.UsesExternalPort" font="//@fonts.0"/>
-  <styles background="//@colors.5" foreground="//@colors.2" lineWidth="2" lineVisible="true" id="gov.redhawk.style.ExternalProvidesPort" font="//@fonts.0"/>
-  <styles background="//@colors.1" foreground="//@colors.2" lineWidth="2" lineVisible="true" id="gov.redhawk.style.ProvidesPort" font="//@fonts.0"/>
-  <styles background="//@colors.1" lineWidth="1" transparency="0.99" id="gov.redhawk.style.StartOrderEllipse"/>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.3/@children.0/@children.0/@anchors.0" end="//@children.1/@children.2/@children.0/@children.0/@anchors.0">
-    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
+      <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Connection"/>
+    </graphicsAlgorithm>
     <link>
       <businessObjects href="basic_components_demo.sad.xml#connection_1"/>
       <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.0/@componentInstantiation.0/@uses.0"/>
       <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@provides.0"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
-      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0">
-        <points x="-15" y="10"/>
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED">
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Connection"/>
+        <points x="-10" y="5"/>
         <points/>
-        <points x="-15" y="-10"/>
+        <points x="-10" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@children.3/@children.0/@children.0/@anchors.0" end="//@children.3/@children.2/@children.0/@children.0/@anchors.0">
-    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
+      <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Connection"/>
+    </graphicsAlgorithm>
     <link>
       <businessObjects href="basic_components_demo.sad.xml#connection_2"/>
       <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.1/@componentInstantiation.0/@uses.0"/>
       <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@provides.0"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
-      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0">
-        <points x="-15" y="10"/>
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED">
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Connection"/>
+        <points x="-10" y="5"/>
         <points/>
-        <points x="-15" y="-10"/>
+        <points x="-10" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.5/@children.3/@children.0/@children.0/@anchors.0" end="//@children.3/@children.2/@children.1/@children.0/@anchors.0">
-    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
+      <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Connection"/>
+    </graphicsAlgorithm>
     <link>
       <businessObjects href="basic_components_demo.sad.xml#connection_3"/>
       <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.5/@componentInstantiation.0/@uses.0"/>
       <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@provides.1"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
-      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0">
-        <points x="-15" y="10"/>
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED">
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Connection"/>
+        <points x="-10" y="5"/>
         <points/>
-        <points x="-15" y="-10"/>
+        <points x="-10" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.3/@children.3/@children.0/@children.0/@anchors.0" end="//@children.2/@children.2/@children.0/@children.0/@anchors.0">
-    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
+      <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Connection"/>
+    </graphicsAlgorithm>
     <link>
       <businessObjects href="basic_components_demo.sad.xml#connection_4"/>
       <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@uses.0"/>
       <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.2/@componentInstantiation.0/@provides.0"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
-      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0">
-        <points x="-15" y="10"/>
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED">
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Connection"/>
+        <points x="-10" y="5"/>
         <points/>
-        <points x="-15" y="-10"/>
+        <points x="-10" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.3/@children.3/@children.0/@children.0/@anchors.0" end="//@children.4/@children.2/@children.0/@children.0/@anchors.0">
-    <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED">
+      <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Connection"/>
+    </graphicsAlgorithm>
     <link>
       <businessObjects href="basic_components_demo.sad.xml#connection_5"/>
       <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.3/@componentInstantiation.0/@uses.0"/>
       <businessObjects href="basic_components_demo.sad.xml#//@partitioning/@componentPlacement.4/@componentInstantiation.0/@provides.0"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
-      <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@colors.2" lineWidth="2" filled="false" transparency="0.0">
-        <points x="-15" y="10"/>
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED">
+        <style href="../../plugin/gov.redhawk.ide.graphiti.ui/style#gov.redhawk.style.Connection"/>
+        <points x="-10" y="5"/>
         <points/>
-        <points x="-15" y="-10"/>
+        <points x="-10" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
   </connections>
   <colors red="227" green="238" blue="249"/>
   <colors red="255" green="255" blue="255"/>
-  <colors/>
-  <colors red="250" green="250" blue="250"/>
-  <colors red="255" green="218" blue="105"/>
-  <colors blue="194"/>
-  <fonts name="Sans" size="8"/>
-  <fonts name="Sans" size="8" bold="true"/>
-  <fonts name="Sans" size="11"/>
 </pi:Diagram>
